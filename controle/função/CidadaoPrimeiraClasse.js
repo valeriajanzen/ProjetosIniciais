@@ -2,13 +2,13 @@
 //Higher-order function
 
 //criar de forma literal
-function fun() { }
+function fun1() { }
 
 //Armazenar em uma variável
 const fun2 = function () {}
 
 //Armazenar um array
-const array = [function(a, b) { return a + b}, fun1, fun2]
+const array = [function (a, b) { return a + b}, fun1, fun2]
 console.log(array[0](2, 3))
 
 //Armazenar em um atributo de objeto
@@ -17,7 +17,7 @@ obj.falar = function () { return 'Opa' }
 console.log(obj.falar())
 
 //Passar função como param
-func (parameter) fun: any {
+function run(fun) {
     fun()
 }
 
